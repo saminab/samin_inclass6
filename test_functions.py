@@ -2,7 +2,7 @@
 # Test for example functions
 import pytest
 # test for my_adder function
-def test_my_adder(a: int, b: int, c: int):
+def test_my_adder():
     """
     Test the my_adder function.
     args: a, b, c
