@@ -2,13 +2,13 @@
 # https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html
 import pytest
 
-def my_adder(a, b, c):
+def my_adder(a:float, b:float, c:float) -> float:
     """
     function to sum the 3 numbers
-    Input: 3 numbers a, b, c
-    Output: the sum of a, b, and c
-    author:
-    date:
+    args: a, b, c
+    return: the sum of a, b, and c
+    author:Samin Ab
+    date:2024-09-20
     """
     
     # this is the summation
@@ -17,12 +17,14 @@ def my_adder(a, b, c):
     return out
 
 
-def my_thermo_stat(temp, desired_temp):
+def my_thermo_stat(temp:int, desired_temp:int) -> str:
     """
     Changes the status of the thermostat based on 
     temperature and desired temperature
-    author
-    date
+    args: temp, desired_temp
+    return: status
+    author: Samin Ab
+    date: 2024-09-20
     :type temp: Int
     :type desiredTemp: Int
     :rtype: String
@@ -39,6 +41,8 @@ def my_thermo_stat(temp, desired_temp):
 def have_digits(s):
     """
     Checks if a string has digits in it
+    args: s
+    return: 1 if there are digits in s, 0 otherwise
     """
     
     out = 0
@@ -53,11 +57,12 @@ def have_digits(s):
     return out
     
  # define the area of a rectangle
-def area_of_rectangle(width, height):
+def area_of_rectangle(width:int, height:int) -> int:
     """
     function to calculate the area of a rectangle
-    Input: width and height of the rectangle
-    Output: area of the rectangle
+    args: width, height
+    return: area of the rectangle
+    
     """
         
         # this is the area
@@ -65,11 +70,12 @@ def area_of_rectangle(width, height):
     return out
 
 # define the perimeter of a rectangle
-def perimeter_of_rectangle(width, height):
+def perimeter_of_rectangle(width:int, height:int) -> int:
     """
     function to calculate the perimeter of a rectangle
-    Input: width and height of the rectangle
-    Output: perimeter of the rectangle
+    args: width, height
+    return: perimeter of the rectangle
+
     """
     
     # this is the perimeter
