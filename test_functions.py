@@ -2,7 +2,7 @@
 # Test for example functions
 import pytest
 # test for my_adder function
-def test_my_adder(a: int, b: int, c: int):
+def test_my_adder():
     """
     Test the my_adder function.
     args: a, b, c
@@ -14,7 +14,7 @@ def test_my_adder(a: int, b: int, c: int):
     assert my_adder
 
 # test for my_thermo_stat function
-def test_my_thermo_stat():
+def test_my_thermo_stgitat():
     """
     Test the my_thermo_stat function.
     args: temp, desired_temp
