@@ -2,4 +2,8 @@ site_name: inclass6
 nav:
   - Home: index.md
   - About: about.md
+  - readme: README.md
+  - notebook: notebook.ipynb
 theme: readthedocs
+plugins:
+  - mkdocs-jupyter
