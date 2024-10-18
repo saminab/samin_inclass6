@@ -14,7 +14,7 @@ def test_my_adder():
     assert my_adder
 
 # test for my_thermo_stat function
-def test_my_thermo_stat():
+def test_my_thermo_stgitat():
     """
     Test the my_thermo_stat function.
     args: temp, desired_temp
